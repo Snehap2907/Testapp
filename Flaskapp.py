@@ -9,3 +9,5 @@ print("write 2")
 #     print("Git Staging test")
 # i=i+1
 print('test 12')
+print('new changes')
+print('few changes')
