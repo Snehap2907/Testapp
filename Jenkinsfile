@@ -65,7 +65,7 @@ pipeline {
         stage('Push to Docker Hub') {
             steps {
                 script {
-                    docker.withRegistry('https://registry-1.docker.io/v2/', 'sneha-dockerhub-credentials-jenkins') {
+                    docker.withRegistry('https://registry-1.docker.io/v2/', 'Sneha_docker_token') {
 
                         // Push with build number tag
                         dockerImage.push("${env.IMAGE_TAG}")
